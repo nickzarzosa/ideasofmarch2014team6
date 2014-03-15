@@ -7,7 +7,7 @@ import android.util.SparseArray;
 import android.view.Menu;
 import android.widget.ExpandableListView;
 
-public class MainActivity extends Activity {
+public class MyListViewActivity extends Activity {
   // more efficient than HashMap for mapping integers to objects
   SparseArray<Group> groups = new SparseArray<Group>();
 
