@@ -28,11 +28,13 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f09000d;
+        public static final int action_settings=0x7f09000f;
         public static final int checkBox1=0x7f090002;
         public static final int checkBox2=0x7f090005;
         public static final int checkBox3=0x7f090008;
         public static final int checkBox4=0x7f09000b;
+        public static final int icon=0x7f09000d;
+        public static final int label=0x7f09000e;
         public static final int resultsListRow1=0x7f090001;
         public static final int resultsListRow2=0x7f090004;
         public static final int resultsListRow3=0x7f090007;
@@ -46,6 +48,7 @@ public final class R {
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int ha_listview=0x7f030001;
+        public static final int rowlayout=0x7f030002;
     }
     public static final class menu {
         public static final int main=0x7f080000;
