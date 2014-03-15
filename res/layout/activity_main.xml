@@ -23,10 +23,9 @@
             android:layout_width="0dip"
             android:layout_weight="1" 
             android:layout_height="fill_parent"
-            android:text="Search All"/>
-			
-
-
+            android:text="Show all"
+            android:onClick="sen"/>
+        	
         <Button
             android:id="@+id/button1"
             android:layout_width="0dip"
@@ -84,4 +83,5 @@
 
    </TableLayout>
 
-   </RelativeLayout>
+
+</RelativeLayout>
