@@ -6,11 +6,18 @@
      android:gravity="center"
      android:orientation="vertical" >
 
-
     <TableLayout
     android:id="@+id/tableLayout1"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent" >
+
+        <TableRow
+            android:id="@+id/bannerRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="80dp" >
+
+        </TableRow>
 
     <TableRow
         android:id="@+id/tableRow1"
@@ -23,10 +30,9 @@
             android:layout_width="0dip"
             android:layout_weight="1" 
             android:layout_height="fill_parent"
-            android:text="Search All"/>
-			
-
-
+            android:text="Show all"
+            android:onClick="sen"/>
+        	
         <Button
             android:id="@+id/button1"
             android:layout_width="0dip"
@@ -84,4 +90,5 @@
 
    </TableLayout>
 
-   </RelativeLayout>
+
+</RelativeLayout>
