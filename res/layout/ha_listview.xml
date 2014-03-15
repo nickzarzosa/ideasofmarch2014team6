@@ -23,7 +23,11 @@
                 android:text="CheckBox" />
 
             <TextView
+<<<<<<< HEAD
                 android:id="@+id/favoritesTextView"
+=======
+                android:id="@+id/textView1"
+>>>>>>> origin/develop
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="TextView" 
