@@ -40,7 +40,7 @@ public final class R {
         public static final int textView1=0x7f090002;
     }
     public static final class layout {
-        public static final int activity_main=0x7f030000;
+        public static final int activity_main_list_view=0x7f030000;
         public static final int listrow_details=0x7f030001;
         public static final int listrow_group=0x7f030002;
         public static final int rowbuttonlayout=0x7f030003;

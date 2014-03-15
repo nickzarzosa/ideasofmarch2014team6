@@ -1,5 +1,4 @@
 package monterey_housing.ideasofmarch2014team6;
-import java.util.ArrayList;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -14,7 +13,7 @@ public class MyListViewActivity extends Activity {
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    setContentView(R.layout.activity_main);
+    setContentView(R.layout.activity_main_list_view);
     createData();
     ExpandableListView listView = (ExpandableListView) findViewById(R.id.listView);
     MyExpandableListAdapter adapter = new MyExpandableListAdapter(this,
