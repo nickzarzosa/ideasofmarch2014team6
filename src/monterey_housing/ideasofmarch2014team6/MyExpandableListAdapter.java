@@ -104,4 +104,4 @@ public class MyExpandableListAdapter extends BaseExpandableListAdapter {
   public boolean isChildSelectable(int groupPosition, int childPosition) {
     return false;
   }
-} 
+}
