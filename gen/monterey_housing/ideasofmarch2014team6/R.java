@@ -26,35 +26,39 @@ public final class R {
     }
     public static final class drawable {
         public static final int ha_logo=0x7f020000;
-        public static final int ic_launcher=0x7f020001;
+        public static final int hd_ha_logo=0x7f020001;
+        public static final int ic_launcher=0x7f020002;
+        public static final int ld_ha_logo=0x7f020003;
+        public static final int md_ha_logo=0x7f020004;
     }
     public static final class id {
         public static final int RelativeLayout1=0x7f090000;
-        public static final int action_settings=0x7f090019;
-        public static final int button1=0x7f090004;
-        public static final int button2=0x7f090006;
-        public static final int button3=0x7f090009;
-        public static final int button6=0x7f090007;
-        public static final int button7=0x7f09000a;
-        public static final int cbutton0=0x7f090003;
-        public static final int checkBox1=0x7f09000e;
-        public static final int checkBox2=0x7f090011;
-        public static final int checkBox3=0x7f090014;
-        public static final int checkBox4=0x7f090017;
-        public static final int favoriteTextView=0x7f09000b;
-        public static final int favoritesTextView=0x7f09000f;
-        public static final int resultsListRow1=0x7f09000d;
-        public static final int resultsListRow2=0x7f090010;
-        public static final int resultsListRow3=0x7f090013;
-        public static final int resultsListRow4=0x7f090016;
+        public static final int action_settings=0x7f09001a;
+        public static final int bannerRow=0x7f090002;
+        public static final int button1=0x7f090005;
+        public static final int button2=0x7f090007;
+        public static final int button3=0x7f09000a;
+        public static final int button6=0x7f090008;
+        public static final int button7=0x7f09000b;
+        public static final int cbutton0=0x7f090004;
+        public static final int checkBox1=0x7f09000f;
+        public static final int checkBox2=0x7f090012;
+        public static final int checkBox3=0x7f090015;
+        public static final int checkBox4=0x7f090018;
+        public static final int favoriteTextView=0x7f09000c;
+        public static final int favoritesTextView=0x7f090010;
+        public static final int resultsListRow1=0x7f09000e;
+        public static final int resultsListRow2=0x7f090011;
+        public static final int resultsListRow3=0x7f090014;
+        public static final int resultsListRow4=0x7f090017;
         public static final int tableLayout1=0x7f090001;
-        public static final int tableRow1=0x7f090002;
-        public static final int tableRow2=0x7f090005;
-        public static final int tableRow3=0x7f090008;
-        public static final int tbl_test=0x7f09000c;
-        public static final int textView2=0x7f090012;
-        public static final int textView3=0x7f090015;
-        public static final int textView4=0x7f090018;
+        public static final int tableRow1=0x7f090003;
+        public static final int tableRow2=0x7f090006;
+        public static final int tableRow3=0x7f090009;
+        public static final int tbl_test=0x7f09000d;
+        public static final int textView2=0x7f090013;
+        public static final int textView3=0x7f090016;
+        public static final int textView4=0x7f090019;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
