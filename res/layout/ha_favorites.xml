@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/favoriteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:text="Favorites"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:padding="10dp"
+        android:gravity="center" />
+	<TableLayout 
+	    android:id="@+id/tbl_test"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="#000000"
+	    android:orientation="vertical"
+	    android:layout_marginTop="1dp"
+	    android:layout_marginBottom="1dp"
+	    android:stretchColumns="1"
+	    >
+	
+	     <TableRow
+	         android:background="#ffffff"
+	         android:layout_marginLeft="1dp"
+	         android:layout_marginRight="1dp"
+	         android:layout_marginBottom="1dp"
+	         android:layout_marginTop="1dp"
+	         >
+	
+	         <TextView android:text="r1" android:layout_column="0" />
+	         <TextView android:text="fav1" android:layout_column="1" />
+	        <Button android:text="delete" />
+	
+	    </TableRow>
+	
+	     <TableRow
+	         android:background="#ffffff"
+	         android:layout_marginLeft="1dp"
+	         android:layout_marginRight="1dp"
+	         android:layout_marginBottom="1dp"
+	         android:paddingRight="2dp">
+	
+	        <TextView android:text="r2" android:layout_column="0" />
+	        <TextView android:text="fav2" android:layout_column="1" />
+	        <Button android:text="delete" />
+	
+	    </TableRow>
+	
+	     <TableRow
+	         android:background="#ffffff"
+	         android:layout_marginLeft="1dp"
+	         android:layout_marginRight="1dp"
+	         android:layout_marginBottom="1dp"
+	         android:paddingRight="3dp">
+	
+	        <TextView android:text="r3" android:layout_column="0" />
+	        <TextView android:text="fav3" android:layout_column="1" />
+	        <Button android:text="delete" />
+	
+	    </TableRow>
+	
+	     <TableRow
+	         android:background="#ffffff"
+	         android:layout_marginLeft="1dp"
+	         android:layout_marginRight="1dp"
+	         android:layout_marginBottom="1dp"
+	         android:paddingRight="4dp">
+	
+	        <TextView android:text="r4" android:layout_column="0" />
+	        <TextView android:text="fav4" android:layout_column="1" />
+	        <Button android:text="delete" />
+	
+	    </TableRow>
+	    <TableRow
+	         android:background="#ffffff"
+	         android:layout_marginLeft="1dp"
+	         android:layout_marginRight="1dp"
+	         android:layout_marginBottom="1dp"
+	         android:paddingRight="5dp">
+	
+	        <TextView android:text="r5" android:layout_column="0" />
+	        <TextView android:text="fav5" android:layout_column="1" />
+	        <Button android:text="delete" />
+	
+	    </TableRow>
+	    <TableRow
+	         android:background="#ffffff"
+	         android:layout_marginLeft="1dp"
+	         android:layout_marginRight="1dp"
+	         android:layout_marginBottom="1dp"
+	         android:paddingRight="6dp">
+	
+	        <TextView android:text="r6" android:layout_column="0" />
+	        <TextView android:text="fav6" android:layout_column="1" />
+	        <Button android:text="delete" />
+	
+	    </TableRow>
+	    <TableRow
+	         android:background="#ffffff"
+	         android:layout_marginLeft="1dp"
+	         android:layout_marginRight="1dp"
+	         android:layout_marginBottom="1dp"
+	         android:paddingRight="7dp">
+	
+	        <TextView android:text="r7" android:layout_column="0" />
+	        <TextView android:text="fav7" android:layout_column="1" />
+	        <Button android:text="delete" />
+	
+	    </TableRow>
+	      <TableRow
+	         android:background="#ffffff"
+	         android:layout_marginLeft="1dp"
+	         android:layout_marginRight="1dp"
+	         android:layout_marginBottom="1dp"
+	         android:paddingRight="7dp">
+	
+	        <TextView android:text="r8" android:layout_column="0" />
+	        <TextView android:text="fav8" android:layout_column="1" />
+	        <Button android:text="delete" />
+	
+	    </TableRow>
+
+</TableLayout>
+   
+</LinearLayout>
