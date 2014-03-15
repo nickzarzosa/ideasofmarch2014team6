@@ -23,8 +23,13 @@ public class MainActivity extends Activity {
   }
 
   public void createData() {
+	String address = "Address ";
+  	String bedroom = "Bedrooms ";
+  	String rent = "Rent ";
+  	String string;
     for (int i = 0; i < 5; i++) {
-    	Group group = new Group("Address " + i, "Bedrooms " + i, "Rent " + i);
+    	string = address+ i +"\n"+ bedroom + i + "\n" + rent + i;
+    	Group group = new Group(string);
     	
 		group.children.add("Owner " + i);
 		group.children.add("Address " + i);

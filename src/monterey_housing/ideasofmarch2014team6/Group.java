@@ -5,15 +5,11 @@ import java.util.List;
 
 public class Group {
 
-  public String address;
-  public String rent;
-  public String bdrm;
+  public String string;
   public final List<String> children = new ArrayList<String>();
 
-  public Group(String address, String rent, String bdrm) {
-    this.address = address;
-    this.rent = rent;
-    this.address = address;
+  public Group(String string) {
+    this.string = string;
   }
 
 } 

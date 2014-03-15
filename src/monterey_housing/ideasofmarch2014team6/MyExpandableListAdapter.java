@@ -90,9 +90,7 @@ public class MyExpandableListAdapter extends BaseExpandableListAdapter {
       convertView = inflater.inflate(R.layout.listrow_group, null);
     }
     Group group = (Group) getGroup(groupPosition);
-    ((CheckedTextView) convertView).setText(group.address);
-    ((CheckedTextView) convertView).setText(group.bdrm);
-    ((CheckedTextView) convertView).setText(group.rent);
+    ((CheckedTextView) convertView).setText(group.string);
     ((CheckedTextView) convertView).setChecked(isExpanded);
     return convertView;
   }
