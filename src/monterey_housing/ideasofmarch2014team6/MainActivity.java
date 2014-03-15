@@ -1,5 +1,5 @@
 package monterey_housing.ideasofmarch2014team6;
-<<<<<<< HEAD
+
 
 import android.os.Bundle;
 import android.app.Activity;
@@ -64,6 +64,7 @@ import android.widget.ExpandableListView;
 
 public class MainActivity extends Activity {
   // more efficient than HashMap for mapping integers to objects
+	//this is a test
   SparseArray<Group> groups = new SparseArray<Group>();
 
   @Override
