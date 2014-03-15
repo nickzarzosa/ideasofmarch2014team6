@@ -4,5 +4,7 @@
     <string name="app_name">ideasofmarch2014team6</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
 
 </resources>
