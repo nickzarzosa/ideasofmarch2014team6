@@ -23,12 +23,19 @@ public class MainActivity extends Activity {
   }
 
   public void createData() {
-    for (int j = 0; j < 5; j++) {
-      Group group = new Group("Test " + j);
-      for (int i = 0; i < 5; i++) {
-        group.children.add("Sub Item" + i);
-      }
-      groups.append(j, group);
+    for (int i = 0; i < 5; i++) {
+    	Group group = new Group("Address " + i, "Bedrooms " + i, "Rent " + i);
+    	
+		group.children.add("Owner " + i);
+		group.children.add("Address " + i);
+		group.children.add("City " + i);
+		group.children.add("Rent " + i);
+		group.children.add("Bedrooms " + i);
+		group.children.add("Unit Type " + i);
+		group.children.add("Phone " + i);
+		group.children.add("OtherInfo " + i);
+		group.children.add("Utilites" + i);
+		groups.append(i, group);
     }
   }
 
