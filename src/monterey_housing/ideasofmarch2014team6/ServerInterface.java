@@ -26,7 +26,7 @@ public class ServerInterface {
              * @param server_url is passed, defined in resources R.string.server_url
              */
     		SERVER_URL = server_url ;
-            String data = "command=" + URLEncoder.encode("getList");
+            String data = "command=" + "getList";
             return executeHttpRequest(data);
     }
 
