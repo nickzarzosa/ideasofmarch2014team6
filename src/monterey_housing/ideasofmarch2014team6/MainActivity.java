@@ -17,7 +17,7 @@ public class MainActivity extends Activity {
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     DataPull testPull = new DataPull();
-    setContentView(R.layout.ha_activity_list_view);
+    setContentView(R.layout.ha_activity_main);
     createData();
     ExpandableListView listView = (ExpandableListView) findViewById(R.id.listView);
     MyExpandableListAdapter adapter = new MyExpandableListAdapter(this,
