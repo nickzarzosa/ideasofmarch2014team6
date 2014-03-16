@@ -16,7 +16,6 @@
             android:id="@+id/bannerRow"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingTop="80dp" 
             android:gravity="center"
 			android:textAlignment="center" >
 			
