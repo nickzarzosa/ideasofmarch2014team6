@@ -8,7 +8,7 @@ import android.util.SparseArray;
 import android.view.Menu;
 import android.widget.ExpandableListView;
 
-public class MainActivity extends Activity {
+public class ListViewActivity extends Activity {
   // more efficient than HashMap for mapping integers to objects
 	
   SparseArray<Group> groups = new SparseArray<Group>();
@@ -16,7 +16,6 @@ public class MainActivity extends Activity {
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    DataPull testPull = new DataPull();
     setContentView(R.layout.ha_activity_list_view);
     createData();
     ExpandableListView listView = (ExpandableListView) findViewById(R.id.listView);
