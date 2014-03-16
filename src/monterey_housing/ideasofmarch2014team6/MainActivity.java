@@ -17,6 +17,7 @@ public class MainActivity extends Activity {
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     DataPull testPull = new DataPull();
+    //comment to force new commit
     setContentView(R.layout.ha_activity_list_view);
     createData();
     ExpandableListView listView = (ExpandableListView) findViewById(R.id.listView);
