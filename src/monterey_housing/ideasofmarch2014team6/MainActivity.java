@@ -16,35 +16,9 @@ public class MainActivity extends Activity {
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    DataPull testPull = new DataPull();
+//    DataPull testPull = new DataPull();
     setContentView(R.layout.ha_activity_main);
-    createData();
-    ExpandableListView listView = (ExpandableListView) findViewById(R.id.listView);
-    MyExpandableListAdapter adapter = new MyExpandableListAdapter(this,
-        groups);
-    listView.setAdapter(adapter);
-  }
 
-  public void createData() {
-	String address = "Address ";
-  	String bedroom = "Bedrooms ";
-  	String rent = "Rent ";
-  	String string;
-    for (int i = 0; i < 5; i++) {
-    	string = address+ i +"\n"+ bedroom + i + "\n" + rent + i;
-    	Group group = new Group(string);
-    	
-		group.children.add("Owner " + i);
-		group.children.add("Address " + i);
-		group.children.add("City " + i);
-		group.children.add("Rent " + i);
-		group.children.add("Bedrooms " + i);
-		group.children.add("Unit Type " + i);
-		group.children.add("Phone " + i);
-		group.children.add("OtherInfo " + i);
-		group.children.add("Utilites" + i);
-		groups.append(i, group);
-    }
   }
 
 } 
