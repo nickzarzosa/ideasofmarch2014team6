@@ -38,14 +38,14 @@ public class ServerInterface {
      */
     public static String getByCity(String City, String server_url) {
             SERVER_URL = server_url ;
-            String data = "command=" + URLEncoder.encode("getCity");
-            data += "&city=" + URLEncoder.encode(City);
+            String data = "command=" + "getCity";
+            data += "&city=" + City;
             return executeHttpRequest(data);
     }
     
     public static String getCities(String server_url) {
         SERVER_URL = server_url ;
-        String data = "command=" + URLEncoder.encode("getCities");
+        String data = "command=" + "getCities";
        // data += "&city=" + URLEncoder.encode(City);
         return executeHttpRequest(data);
 }
