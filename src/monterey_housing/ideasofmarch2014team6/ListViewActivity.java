@@ -19,7 +19,12 @@ public class ListViewActivity extends Activity {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.ha_activity_list_view);
     
-
+  // GET DATA FROM SERVER  
+    String server_url = "http://secure.loosescre.ws/~keith/hamonterey.org/Mserver.php";
+    String allServerData = ServerInterface.getList(server_url);
+    ArrayList<Rental> rentalList = ServerInterface.buildRentalsList(allServerData);
+    
+/*
   	String[] values = new String[] { "SALINAS", "SRO", "50 E MARKET ST", "771-972", "$450 - $540", 
   	        "Call to be put on waiting list. Deposit $650. Call Maribel Monday - Friday 10:00 - 4:30pm."};
     createData(values);
@@ -31,7 +36,7 @@ public class ListViewActivity extends Activity {
     String[] values3 = new String[] {"GREENFIELD", "0", "", "676-6281", "$650", 
   	        "Available now. Deposit $650. Call for address"};
     createData(values3);
-    
+  */  
     ExpandableListView listView = (ExpandableListView) findViewById(R.id.listView);
     MyExpandableListAdapter adapter = new MyExpandableListAdapter(this,
         groups);
