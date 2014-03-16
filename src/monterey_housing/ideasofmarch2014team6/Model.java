@@ -2,28 +2,16 @@ package monterey_housing.ideasofmarch2014team6;
 
 public class Model {
 
-	  private String name;
-	  private boolean selected;
-
-	  public Model(String name) {
-	    this.name = name;
-	    selected = false;
+	  public String val1;
+	  public String val2;
+	  public Model(){
+		  super();
 	  }
 
-	  public String getName() {
-	    return name;
-	  }
+	  public Model(String val1, String val2) {
+	    this.val1 = val1;
+	    this.val2 = val2;
 
-	  public void setName(String name) {
-	    this.name = name;
-	  }
-
-	  public boolean isSelected() {
-	    return selected;
-	  }
-
-	  public void setSelected(boolean selected) {
-	    this.selected = selected;
 	  }
 
 	} 

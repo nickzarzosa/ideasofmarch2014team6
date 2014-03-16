@@ -8,7 +8,7 @@ public class ha_maps extends Activity{
 		@Override
 		protected void onCreate(Bundle savedInstanceState) {
 			super.onCreate(savedInstanceState);
-			setContentView(R.layout.ha_activity_main);
+			setContentView(R.layout.ha_maps);
 		}
 	
 

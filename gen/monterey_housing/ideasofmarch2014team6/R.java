@@ -40,7 +40,7 @@ public final class R {
         public static final int Button02=0x7f0a0014;
         public static final int LinearLayout1=0x7f0a0000;
         public static final int RelativeLayout1=0x7f0a0002;
-        public static final int action_settings=0x7f0a0019;
+        public static final int action_settings=0x7f0a001a;
         public static final int bannerRow=0x7f0a0004;
         public static final int button1=0x7f0a0007;
         public static final int button2=0x7f0a0009;
@@ -48,12 +48,10 @@ public final class R {
         public static final int button6=0x7f0a000a;
         public static final int button7=0x7f0a000d;
         public static final int cbutton0=0x7f0a0006;
-        public static final int check=0x7f0a0017;
         public static final int favoriteTextView=0x7f0a000e;
-        public static final int icon=0x7f0a0018;
         public static final int imageView1=0x7f0a0010;
-        public static final int label=0x7f0a0016;
         public static final int listView=0x7f0a0001;
+        public static final int listView1=0x7f0a0019;
         public static final int map=0x7f0a0015;
         public static final int tableLayout1=0x7f0a0003;
         public static final int tableRow1=0x7f0a0005;
@@ -62,6 +60,9 @@ public final class R {
         public static final int tbl_test=0x7f0a000f;
         public static final int textView1=0x7f0a0011;
         public static final int textView2=0x7f0a0012;
+        public static final int txtHeader=0x7f0a0016;
+        public static final int txtValOne=0x7f0a0017;
+        public static final int txtValTwo=0x7f0a0018;
     }
     public static final class integer {
         public static final int google_play_services_version=0x7f060000;
@@ -74,16 +75,19 @@ public final class R {
         public static final int ha_listrow_details=0x7f030004;
         public static final int ha_listrow_group=0x7f030005;
         public static final int ha_maps=0x7f030006;
-        public static final int rowbuttonlayout=0x7f030007;
-        public static final int rowlayout=0x7f030008;
+        public static final int listview_header_row=0x7f030007;
+        public static final int listview_item_row=0x7f030008;
+        public static final int main=0x7f030009;
     }
     public static final class menu {
         public static final int main=0x7f090000;
     }
     public static final class string {
-        public static final int action_settings=0x7f070001;
+        public static final int action_settings=0x7f070003;
         public static final int app_name=0x7f070000;
-        public static final int hello_world=0x7f070002;
+        public static final int hello_world=0x7f070004;
+        public static final int list_view_activity=0x7f070002;
+        public static final int main_activity=0x7f070001;
     }
     public static final class style {
         /** 
