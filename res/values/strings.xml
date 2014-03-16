@@ -6,6 +6,7 @@
     <string name="list_view_activity">ListViewActivty</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="ha_logo">ha_logo</string>
     <color name="black">#000000</color>
     <color name="white">#FFFFFF</color>
 

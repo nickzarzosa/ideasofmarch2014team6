@@ -377,6 +377,7 @@ containing a value of this type.
         /**  Long form sign-in button text [CHAR LIMIT=30] 
          */
         public static final int common_signin_button_text_long=0x7f060013;
+        public static final int ha_logo=0x7f06001f;
         public static final int hello_world=0x7f06001e;
         public static final int list_view_activity=0x7f06001c;
         public static final int main_activity=0x7f06001b;

@@ -9,22 +9,21 @@
     <TableLayout
     android:id="@+id/tableLayout1"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent" >
+    android:layout_height="fill_parent" 
+    android:gravity="center" >
 
         <TableRow
             android:id="@+id/bannerRow"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingTop="80dp" >
-
+            android:paddingTop="80dp" 
+            android:gravity="center"
+			android:textAlignment="center" >
+			
             <ImageView
 		        android:id="@+id/imageView1"
 		        android:layout_width="wrap_content"
 		        android:layout_height="wrap_content"
-		        android:layout_alignParentBottom="true"
-		        android:layout_alignParentLeft="true"
-		        android:layout_alignParentRight="true"
-		        android:layout_marginBottom="404dp"
 		        android:contentDescription="@string/ha_logo"
 		        android:src="@drawable/ha_logo"
 		        android:textAlignment="center" />
@@ -89,14 +88,14 @@
             android:layout_width="0dip"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:text="maybe favorites"/>
+            android:text="Directions"/>
 
         <Button
             android:id="@+id/button5"
             android:layout_width="0dip"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:text="Button"/>
+            android:text="Info"/>
 
     </TableRow>
 
