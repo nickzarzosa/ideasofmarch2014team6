@@ -6,6 +6,8 @@ import java.io.IOException;
 import java.net.URL;
 import java.net.URLConnection;
 import java.net.URLEncoder;
+import java.util.ArrayList;
+import java.util.StringTokenizer;
 
 public class ServerInterface {
 
@@ -99,5 +101,48 @@ public class ServerInterface {
             }
 
             return result;
+    }
+    
+    
+    public static ArrayList<Rental> buildRentalsList(Object objResult){
+    	if(objResult != null && objResult instanceof String) {                
+    	ArrayList<Rental> output = new ArrayList<Rental>();
+	    String result = (String) objResult;
+        // this is used to hold the string array, after tokenizing
+        String[] responseList, rentalAttributes;
+
+        // we'll use a string tokenizer, with "," (comma) as the delimiter
+        StringTokenizer tk1 = new StringTokenizer(result, "<br />");
+
+        // now we know how long the string array is
+        responseList = new String[tk1.countTokens()];
+        int j = 0 ;
+        while (tk1.hasMoreTokens()) {
+        	responseList[j] = tk1.nextToken();
+            StringTokenizer tk2 = new StringTokenizer(responseList[j++], ",");
+            rentalAttributes = new String[tk2.countTokens()];
+            int i = 0;
+            while(tk2.hasMoreTokens()) {
+                    rentalAttributes[i++] = tk2.nextToken();
+            
+            }
+            
+            //create rental object
+            Rental tempRental = new Rental();
+            tempRental.setCity(rentalAttributes[1]);
+            tempRental.setNumBedrooms(rentalAttributes[2]);
+            tempRental.setAddress(rentalAttributes[4]);
+            tempRental.setPhoneNum(rentalAttributes[5]);
+            tempRental.setRent(rentalAttributes[6]);
+            tempRental.setOtherInfo(rentalAttributes[6]);
+            
+            output.add(tempRental);
+            
+        
+    	
+        }
+        return output;
+    } 
+        return null;
     }
 }
