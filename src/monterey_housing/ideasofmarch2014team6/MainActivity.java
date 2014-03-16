@@ -16,6 +16,10 @@ public class MainActivity extends Activity {
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
+<<<<<<< HEAD
+=======
+    DataPull testPull = new DataPull();
+>>>>>>> 0f0693235a24d90eeedfdbc9478a6f10b063888c
     setContentView(R.layout.ha_activity_list_view);
     createData();
     ExpandableListView listView = (ExpandableListView) findViewById(R.id.listView);
